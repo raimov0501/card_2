@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #010101;
+}
+
+.card-surrauding {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #0e6cc6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(27, 26, 26, 0.2) inset;
+-moz-box-shadow: 0px 5px 10px 2px rgba(27, 26, 26, 0.2) inset;
+box-shadow: 0px 5px 10px 2px rgba(27, 26, 26, 0.2) inset;
+}
+
+.card-title {
+    background-color: #fff;
+}
+
+.card-text {
+    display: flex;
+    color: #898989;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.card-link {
+    color: #d6d6d6;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 17px
+}
+
+.card-linked{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin:35px;
+    padding-left: 53px;
+    padding-right: 53px;
+
+
+}
+
+.information{
+    display: flex;
+    color: #c3c9c5;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.card-botton-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    
+}
+
+.card-botton{
+    background-color: #4088cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 350px;
+    height: 80px;
+    font-size: x-large;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
